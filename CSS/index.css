@@ -3,3 +3,19 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	min-width: 1600px;
+	font-family: "Montserrat", sans-serif;
+	background-image: url("../img/geometric-5969508_1280.png");
+	background-size: cover;
+	background-position: center;
+	overflow: scroll;
+}
