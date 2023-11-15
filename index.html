@@ -98,75 +98,83 @@
 										</div>
 									</div>
 								</div>
-								<section class="main-table p-5">
-									<div class="d-flex justify-content-between">
-										<h3 class="mb-3">Ostatnie posty:</h3>
-	
-										<div class="dropdown">
-											<button
-												class="btn btn-outline-light dropdown-toggle"
-												type="button"
-												id="dropdownMenuButton1"
-												data-bs-toggle="dropdown"
-												aria-expanded="false"
-											>
-												Sortuj
-											</button>
-											<ul
-												class="dropdown-menu"
-												aria-labelledby="dropdownMenuButton1"
-											>
-												<li>
-													<a
-														class="dropdown-item"
-														href="#"
-														>Według dat</a
-													>
-												</li>
-												<li>
-													<a
-														class="dropdown-item"
-														href="#"
-														>Według autora</a
-													>
-												</li>
-											</ul>
-										</div>
+
+								<div
+									id="chart"
+									class="py-5 text-dark"
+								></div>
+							</section>
+
+							<section class="main-table p-5">
+								<div class="d-flex justify-content-between">
+									<h3 class="mb-3">Ostatnie posty:</h3>
+
+									<div class="dropdown">
+										<button
+											class="btn btn-outline-light dropdown-toggle"
+											type="button"
+											id="dropdownMenuButton1"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Sortuj
+										</button>
+										<ul
+											class="dropdown-menu"
+											aria-labelledby="dropdownMenuButton1"
+										>
+											<li>
+												<a
+													class="dropdown-item"
+													href="#"
+													>Według dat</a
+												>
+											</li>
+											<li>
+												<a
+													class="dropdown-item"
+													href="#"
+													>Według autora</a
+												>
+											</li>
+										</ul>
 									</div>
-	
-									<table class="table table-transparent text-dark">
-										<thead>
-											<tr>
-												<th scope="col">#</th>
-												<th scope="col">Temat</th>
-												<th scope="col">Użytkownik</th>
-												<th scope="col">Data</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<th>1</th>
-												<td>Lorem, ipsum dolor.</td>
-												<td>Otto</td>
-												<td>20/20/2020</td>
-											</tr>
-											<tr>
-												<th>2</th>
-												<td>
-													Lorem ipsum dolor sit amet consectetur adipisicing elit.
-												</td>
-												<td>Thornton</td>
-												<td>20/20/2020</td>
-											</tr>
-											<tr>
-												<th>3</th>
-												<td>Lorem ipsum dolor sit amet.</td>
-												<td>Larry the Bird</td>
-												<td>20/20/2020</td>
-											</tr>
-										</tbody>
-									</table>
-									<nav
+								</div>
+
+								<table class="table table-transparent text-light">
+									<thead>
+										<tr>
+											<th scope="col">#</th>
+											<th scope="col">Temat</th>
+											<th scope="col">Użytkownik</th>
+											<th scope="col">Data</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>1</th>
+											<td>Lorem, ipsum dolor.</td>
+											<td>Otto</td>
+											<td>20/20/2020</td>
+										</tr>
+										<tr>
+											<th>2</th>
+											<td>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											</td>
+											<td>Thornton</td>
+											<td>20/20/2020</td>
+										</tr>
+										<tr>
+											<th>3</th>
+											<td>Lorem ipsum dolor sit amet.</td>
+											<td>Larry the Bird</td>
+											<td>20/20/2020</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<nav
 									aria-label="Page navigation example"
 									class="d-flex justify-content-center"
 								>
@@ -213,11 +221,37 @@
 									</ul>
 								</nav>
 							</section>
-								<div
-									id="chart"
-									class="py-5 text-dark"
-								></div>
+						</div>
+						<aside class="col-3 p-4 text-light text-center aside pe-5">
+							<section class="logo py-4">
+								<p class="logo-text">
+									<i class="fa-solid fa-paper-plane"></i> Maglana<span
+										class="blue-text"
+										>Group</span
+									>
+								</p>
+								<!-- <p>Twój Partner w biznesie! </p> -->
 							</section>
+							<section class="users-online py-5">
+								<h3>użytkownicy online</h3>
+								<p>47</p>
+							</section>
+							<section class="users-gender py-4">
+								<h3>płać użytkownika</h3>
+								<div class="row m-0">
+									<div class="col-6 box">
+										<i class="fas fa-male"></i>
+										<p>43%</p>
+									</div>
+									<div class="col-6 box">
+										<i class="fas fa-female"></i>
+										<p>57%</p>
+									</div>
+								</div>
+							</section>
+						</aside>
+					</div>
+				</div>
 			</div>
 		</div>
 		<script
