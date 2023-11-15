@@ -154,3 +154,38 @@ body {
 }
 
 /* ---------- */
+
+.main-table h3 {
+	font-size: 2.6rem;
+	/*color: #fff;*/
+	color: black;
+	font-weight: bold;
+}
+
+.main-table thead,
+.main-table .dropdown-item {
+	font-size: 1.4rem;
+	color: black;
+}
+
+.main-table tbody {
+	font-size: 1.5rem;
+	color: black;
+}
+
+.main-table .btn {
+	font-size: 1.6rem;
+}
+
+.page-link {
+	padding: 0.5em 1em;
+	font-size: 1.7rem;
+	background-color: transparent;
+	color: black;
+}
+
+.page-link:hover {
+	background-color: #f0f0f0;
+	color: black;
+}
+/*-----*/
