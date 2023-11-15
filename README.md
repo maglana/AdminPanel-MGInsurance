@@ -1,1 +1,1 @@
-# AdminPanel-MaglanaGroup
+# AdminPanel-MGInsurance
