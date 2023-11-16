@@ -241,3 +241,17 @@ aside h3 {
 	font-size: 1.4rem;
 	background-color: #41f2d2;
 }
+
+
+/*-------*/
+.users-list li {
+	padding: 0.5em 1em;
+	margin: 0.2em 0;
+	font-size: 2rem;
+}
+.users-list .btn {
+	font-size: 1.6rem;
+}
+.users-list .list-group-item {
+	border: 1px solid black;
+}
