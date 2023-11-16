@@ -216,11 +216,11 @@ aside h3 {
 	color: black;
 }
 
-.users-gender .fa-male {
+.users-gender .fa-house-chimney-crack {
 	text-shadow: 0 0 10px #41f2d2;
 }
 
-.users-gender .fa-female {
+.users-gender .fa-car {
 	text-shadow: 0 0 10px #0033ff;
 }
 
@@ -229,3 +229,15 @@ aside h3 {
 	color: black;
 }
 /*-----*/
+.monthly-status .form-select,
+.monthly-status option {
+	font-size: 1.6rem;
+}
+.monthly-status .info {
+	font-size: 1.8rem;
+	color: black;
+}
+.monthly-status .number {
+	font-size: 1.4rem;
+	background-color: #41f2d2;
+}
