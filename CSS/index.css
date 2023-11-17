@@ -241,17 +241,53 @@ aside h3 {
 	font-size: 1.4rem;
 	background-color: #41f2d2;
 }
+/*-------*/
+.posts h3 {
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
+.featured-post .btn {
+	font-size: 1.6rem;
+}
+
+.featured-post .card-title {
+	font-size: 1.8rem;
+}
+
+.featured-post .card-body {
+	font-size: 1.4rem;
+}
 
 /*-------*/
 .users-list li {
 	padding: 0.5em 1em;
 	margin: 0.2em 0;
 	font-size: 2rem;
+	border-radius: 15px;
+}
+.list-group {
+	border-radius: 15px;
 }
 .users-list .btn {
 	font-size: 1.6rem;
 }
 .users-list .list-group-item {
 	border: 1px solid black;
+}
+.user-search label,
+.user-search input,
+.user-search select {
+	font-size: 1.6rem;
+}
+.user-search .btn {
+	font-size: 2rem;
+}
+.model-content label,
+.model-content .newsletter,
+.model-content select,
+.model-content input,
+.model-content .btn {
+	font-size: 1.6rem;
 }
