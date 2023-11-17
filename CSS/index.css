@@ -175,6 +175,7 @@ body {
 
 .main-table .btn {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 
 .page-link {
@@ -232,6 +233,7 @@ aside h3 {
 .monthly-status .form-select,
 .monthly-status option {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 .monthly-status .info {
 	font-size: 1.8rem;
@@ -250,6 +252,7 @@ aside h3 {
 
 .featured-post .btn {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 
 .featured-post .card-title {
@@ -258,6 +261,9 @@ aside h3 {
 
 .featured-post .card-body {
 	font-size: 1.4rem;
+}
+.card {
+	border-radius: 15px;
 }
 
 /*-------*/
@@ -272,6 +278,7 @@ aside h3 {
 }
 .users-list .btn {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 .users-list .list-group-item {
 	border: 1px solid black;
@@ -280,9 +287,11 @@ aside h3 {
 .user-search input,
 .user-search select {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 .user-search .btn {
 	font-size: 2rem;
+	border-radius: 15px;
 }
 .model-content label,
 .model-content .newsletter,
