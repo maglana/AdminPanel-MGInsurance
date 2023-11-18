@@ -103,10 +103,7 @@ body {
 		rgba(85, 122, 176, 1) 100%
 	);
 }
-/*
-background-color: rgba(133, 130, 217, 1);
-background-image: linear-gradient(90deg, rgba(133, 130, 217, 1) 10%, rgba(59, 92, 191, 1) 40%);
-*/
+
 .menu-item i {
 	font-size: 5rem;
 	margin-bottom: 0.4rem;
@@ -190,6 +187,7 @@ background-image: linear-gradient(90deg, rgba(133, 130, 217, 1) 10%, rgba(59, 92
 	font-size: 1.7rem;
 	background-color: transparent;
 	color: black;
+	border-radius: 5px;
 }
 
 .page-link:hover {
@@ -241,6 +239,7 @@ aside h3 {
 .monthly-status .form-select,
 .monthly-status option {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 .monthly-status .info {
 	font-size: 1.8rem;
@@ -249,6 +248,9 @@ aside h3 {
 .monthly-status .number {
 	font-size: 1.4rem;
 	background-color: #41f2d2;
+}
+.form-grup {
+	border-radius: 15px;
 }
 
 /* podstrona posts */
@@ -261,6 +263,7 @@ aside h3 {
 
 .featured-post .btn {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 
 .featured-post .card-title {
@@ -271,6 +274,12 @@ aside h3 {
 	font-size: 1.4rem;
 }
 .featured-post .card {
+	border-radius: 15px;
+}
+.card {
+	border-radius: 15px;
+}
+.card-group {
 	border-radius: 15px;
 }
 
@@ -298,6 +307,7 @@ aside h3 {
 .find-post .btn,
 .find-post .dropdown-item {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 /*-------*/
 .posts-modal h3 {
@@ -307,6 +317,7 @@ aside h3 {
 .posts-modal p,
 .posts-modal .btn {
 	font-size: 1.3rem;
+	border-radius: 15px;
 }
 .posts-modal .modal-body .btn {
 	text-transform: uppercase;
@@ -316,9 +327,14 @@ aside h3 {
 	padding: 0.5em 1em;
 	margin: 0.2em 0;
 	font-size: 2rem;
+	border-radius: 15px;
+}
+.list-group {
+	border-radius: 15px;
 }
 .users-list .btn {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 .users-list .list-group-item {
 	border: 1px solid black;
@@ -327,6 +343,7 @@ aside h3 {
 .user-search input,
 .user-search select {
 	font-size: 1.6rem;
+	border-radius: 15px;
 }
 .user-search .btn {
 	font-size: 2rem;
