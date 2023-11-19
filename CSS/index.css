@@ -358,5 +358,15 @@ aside h3 {
 .model-content select,
 .model-content input,
 .model-content .btn {
+	font-size: 2rem;
+}
+
+.form-group{
+	font-size: 1.8rem;
+}
+.form-select{
 	font-size: 1.6rem;
+}
+.form-check, .newsletter {
+font-size: 1.6rem;
 }
