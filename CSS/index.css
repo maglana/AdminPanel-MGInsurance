@@ -187,7 +187,7 @@ body {
 	font-size: 1.7rem;
 	background-color: transparent;
 	color: black;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
 .page-link:hover {
@@ -289,17 +289,21 @@ aside h3 {
 	object-fit: cover;
 	opacity: 0.6;
 	transition: opacity 0.3s, transform 0.3s;
+	border-radius: 15px;
 }
 .active-users img:hover {
+	border-radius: 15px;
 	opacity: 1;
 	transform: scale(1.1);
 }
 .active-users .card-img {
 	overflow: hidden;
+	border-radius: 15px;
 }
 .active-users .card-body,
 .active-users .btn {
 	font-size: 1.5rem;
+	border-radius: 15px;
 }
 /*------*/
 .find-post,
@@ -347,6 +351,7 @@ aside h3 {
 }
 .user-search .btn {
 	font-size: 2rem;
+	border-radius: 15px;
 }
 .model-content label,
 .model-content .newsletter,
