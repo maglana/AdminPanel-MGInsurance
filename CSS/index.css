@@ -353,20 +353,11 @@ aside h3 {
 	font-size: 2rem;
 	border-radius: 15px;
 }
-.model-content label,
-.model-content .newsletter,
-.model-content select,
-.model-content input,
-.model-content .btn {
-	font-size: 2rem;
-}
-
-.form-group{
+.modal-content label,
+.modal-content .newsletter,
+.modal-content select,
+.modal-content input,
+.modal-content .btn {
 	font-size: 1.8rem;
-}
-.form-select{
-	font-size: 1.6rem;
-}
-.form-check, .newsletter {
-font-size: 1.6rem;
+	border-radius: 15px;
 }
