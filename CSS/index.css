@@ -264,6 +264,9 @@ aside h3 {
 .featured-post .btn {
 	font-size: 1.6rem;
 	border-radius: 15px;
+	border: none;
+	background-color: #304f8c;
+	color: white;
 }
 
 .featured-post .card-title {
@@ -285,25 +288,29 @@ aside h3 {
 
 /*post-zdj*/
 .active-users img {
-	height: 180px;
+	border-radius: 15px;
+	height: 200px;
+	width: 380px;
 	object-fit: cover;
 	opacity: 0.6;
 	transition: opacity 0.3s, transform 0.3s;
-	border-radius: 15px;
 }
 .active-users img:hover {
-	border-radius: 15px;
 	opacity: 1;
 	transform: scale(1.1);
 }
 .active-users .card-img {
 	overflow: hidden;
-	border-radius: 15px;
 }
 .active-users .card-body,
 .active-users .btn {
 	font-size: 1.5rem;
 	border-radius: 15px;
+}
+.card-body .btn {
+	border: none;
+	background-color: #304f8c;
+	color: white;
 }
 /*------*/
 .find-post,
@@ -312,6 +319,11 @@ aside h3 {
 .find-post .dropdown-item {
 	font-size: 1.6rem;
 	border-radius: 15px;
+}
+.find-post .btn {
+	border: none;
+	background-color: #304f8c;
+	color: white;
 }
 /*-------*/
 .posts-modal h3 {
@@ -322,6 +334,11 @@ aside h3 {
 .posts-modal .btn {
 	font-size: 1.3rem;
 	border-radius: 15px;
+}
+.posts-modal .save {
+	border: none;
+	background-color: #304f8c;
+	color: white;
 }
 .posts-modal .modal-body .btn {
 	text-transform: uppercase;
@@ -339,6 +356,9 @@ aside h3 {
 .users-list .btn {
 	font-size: 1.6rem;
 	border-radius: 15px;
+	background-color: #304f8c;
+	color: white;
+	border: none;
 }
 .users-list .list-group-item {
 	border: 1px solid black;
@@ -352,6 +372,9 @@ aside h3 {
 .user-search .btn {
 	font-size: 2rem;
 	border-radius: 15px;
+	background-color: #304f8c;
+	color: white;
+	border: none;
 }
 .modal-content label,
 .modal-content .newsletter,
@@ -360,4 +383,9 @@ aside h3 {
 .modal-content .btn {
 	font-size: 1.8rem;
 	border-radius: 15px;
+}
+.save-us {
+	background-color: #304f8c;
+	color: white;
+	border: none;
 }
